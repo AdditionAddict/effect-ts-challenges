@@ -8,16 +8,25 @@
     "c1": "bun run comparison/00001-write-to-stdout.ts",
     "q2": "bun run questions/00002-check-if-file-exists.ts",
     "s2": "bun run solutions/00002-check-if-file-exists.ts",
-    "c2": "bun run comparison/00002-check-if-file-exists.ts"
+    "c2": "bun run comparison/00002-check-if-file-exists.ts",
+    "schema-q1": "SOMETHING_COOL=42 bun run questions/schema-00001-read-environment-variable.ts",
+    "schema-s1": "SOMETHING_COOL=42 bun run solutions/schema-00001-read-environment-variable.ts",
+    "schema-c1": "SOMETHING_COOL=42 bun run comparison/schema-00001-read-environment-variable.ts",
+    "schema-q1-fail": "bun run questions/schema-00001-read-environment-variable.ts",
+    "schema-s1-fail": "bun run solutions/schema-00001-read-environment-variable.ts",
+    "schema-c1-fail": "bun run comparison/schema-00001-read-environment-variable.ts"
   },
   "devDependencies": {
     "bun-types": "latest",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "zod": "^3.23.6"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "effect": "^3.1.2"
+    "@effect/schema": "^0.66.14",
+    "effect": "^3.1.2",
+    "fast-check": "^3.18.0"
   }
 }
