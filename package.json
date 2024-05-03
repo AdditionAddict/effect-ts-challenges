@@ -6,8 +6,9 @@
     "q1": "bun run questions/00001-write-to-stdout.ts",
     "s1": "bun run solutions/00001-write-to-stdout.ts",
     "c1": "bun run comparison/00001-write-to-stdout.ts",
-    "q2": "bun run questions/00002-read-a-json-file.ts",
-    "s2": "bun run solutions/00002-read-a-json-file.ts"
+    "q2": "bun run questions/00002-check-if-file-exists.ts",
+    "s2": "bun run solutions/00002-check-if-file-exists.ts",
+    "c2": "bun run comparison/00002-check-if-file-exists.ts"
   },
   "devDependencies": {
     "bun-types": "latest",
