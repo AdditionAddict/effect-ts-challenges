@@ -1,3 +1,4 @@
+/* Credit to Matt Pocock for this [example](https://twitter.com/mattpocockuk/status/1615110808219918352) */
 import { z } from "zod";
 
 const envVariables = z.object({
