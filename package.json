@@ -1,11 +1,19 @@
 {
   "name": "effect-ts-challenges",
-  "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "prettier": "prettier --write .",
+    "q1": "bun run questions/00001-write-to-stdout.ts",
+    "s1": "bun run solutions/00001-write-to-stdout.ts"
+  },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "prettier": "^3.2.5"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "effect": "^3.1.2"
   }
 }
